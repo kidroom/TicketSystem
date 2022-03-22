@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2e83ad3f-4702-491d-ab25-96b53bc2b99f": {
+      "ProjectGuid": "2e83ad3f-4702-491d-ab25-96b53bc2b99f",
+      "DisplayName": "TicketSystem",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    },
+    "b942844e-803a-459f-b65e-da89b2960cb0": {
+      "ProjectGuid": "b942844e-803a-459f-b65e-da89b2960cb0",
+      "DisplayName": "Repository",
+      "ColorIndex": 1
+    },
+    "1e6f429e-0410-4189-a9af-7191c01e4306": {
+      "ProjectGuid": "1e6f429e-0410-4189-a9af-7191c01e4306",
+      "DisplayName": "Common",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

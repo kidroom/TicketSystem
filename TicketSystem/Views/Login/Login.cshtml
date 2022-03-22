@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="text-center">
+    <div>
+        <p>登入者</p>
+        <select>
+            <option value="RD">RD</option>
+            <option value="QA">QA</option>
+            <option value="PM">PM</option>
+        </select>
+        <br/>
+        <div id="login">
+            <input type="button" value="登入" v-on:click="handleClick"/>
+        </div>
+    </div>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script>
+    var app = new Vue({
+        el: '#login',
+        data: {
+        },
+        methods:{
+            handleClick: function(){
+                alert("被點擊了");
+            }  
+        }
+    })
+</script>
