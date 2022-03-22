@@ -3,3 +3,50 @@
 *@
 @{
 }
+
+
+<div class="text-center">
+    <div id = "ticketList">
+        <table>
+            <tr>
+                <td>Title</td>
+                <td>Type</td>
+                <td>Description</td>
+                <td>Status</td>
+                <td>Severity</td>
+                <td>Priority</td>
+            </tr>
+            <tr v-for = "item in result">
+                <td>{{ item.title }}</td>
+                <td>{{ item.type }}</td>
+                <td>{{ item.description }}</td>
+                <td>{{ item.Status }}</td>
+                <td>{{ item.Severity }}</td>
+                <td>{{ item.Priority　}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+<script>
+    export interface TicketList {
+        ticketId: number;
+        type: number;
+        title: string;
+        description: string;
+        Status: number;
+        Severity: number;
+        Priority: number;
+    }
+    let app = new Vue({
+        el: '#ticketList',
+        data: {
+            result:[]
+        },
+        mounted () {
+        await axios
+            .get<TicketList>('https://localhost:44367/Ticket/List')
+            .then(response => (this.result = response.data))
+        }
+     });
+</script>

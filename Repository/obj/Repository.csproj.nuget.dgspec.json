@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repo\\TicketSystem\\Repository\\Repository.csproj": {}
+    "E:\\GitHub\\TicketSystem\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "E:\\Repo\\TicketSystem\\Repository\\Repository.csproj": {
+    "E:\\GitHub\\TicketSystem\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repo\\TicketSystem\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\GitHub\\TicketSystem\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "E:\\Repo\\TicketSystem\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\get03\\.nuget\\packages\\",
-        "outputPath": "E:\\Repo\\TicketSystem\\Repository\\obj\\",
+        "projectPath": "E:\\GitHub\\TicketSystem\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
+        "outputPath": "E:\\GitHub\\TicketSystem\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\get03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
